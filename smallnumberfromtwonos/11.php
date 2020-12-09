@@ -1,10 +1,10 @@
 <?php
 
-$S=$_POST['a1'];
+$s=$_POST['a1'];
 $L=$_POST['a2'];
-if($S<=$L){
-    echo "$S is smaller than $L";
+if($s<=$L){
+    echo "$s is smaller than $L";
 }else{
-    echo "$L is smaller than $S";
+    echo "$L is smaller than $s";
 }
 ?>
