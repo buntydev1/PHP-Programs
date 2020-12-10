@@ -1,0 +1,9 @@
+<?php
+$number1=$_REQUEST['t1'];
+do
+{
+	$i=1;
+	$i++;
+}while($number1<=5);
+	echo"$i";
+?>
