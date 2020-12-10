@@ -1,0 +1,56 @@
+<html>
+<body bgcolor=pink>
+	<marquee behavior=scroll bgcolor=cyan>Enter Student Information To Login The Form</marquee>
+	<h1 align=center>Student Login Form</h1>
+	<form name=f1 method=POST action=stud_data.php>
+	<table border=3 cellpadding="10" bordercolor=grey bgcolor=yellow align=center>
+
+				<tr>
+					<td>
+						Enter Roll No:-
+					<td>
+						<input type=textbox name=t1 placeholder="Enter Roll No">
+				<tr>
+					<td>
+						Enter student Name:-
+					<td>
+						<input type=textbox name=t2 placeholder="Enter Student Name">
+				<tr>
+					<td>
+						Gender:-
+					<td>
+						<input type=radio value=male name=r1>male
+						<input type=radio value=female name=r1>female 
+				<tr>
+					<td>
+						Stream:-
+					<td>
+						<select name=s1>
+							<option>BCA
+							<option>BSCIT
+							<option>MCA
+							<option>MSCIT
+							<option>PGDCA
+				<tr>
+					<td>
+						Enter Email:-
+					<td>
+						<input type=textbox name=t3 placeholder="Enter Email">
+				<tr>
+					<td>
+						Enter Contact:-
+					<td>
+						<input type=textbox name=t4 placeholder="Enter Contact">
+				<tr>
+					<td>
+						Enter Address:-
+					<td>
+						<input type=textarea name=t5 placeholder="Enter Address">
+				<tr>
+					<td colspan=2 align=center>
+						<input type=submit value="insert data"> 
+						<input type=reset value=clear>
+	</table>
+	</form>
+</body>
+</html>
